@@ -41,7 +41,7 @@ type ImageProps = {
   export const Logo2Defaults: Logo2Props = {
     heading: "Our Partners",
     logos: [
-      { src: "/Images/ICNU_Logo.jpg", alt: "" },
+      { src: "/Images/ICNU_logo.png", alt: "" },
       { src: "/Images/ITNU_Logo.jpg", alt: "" },
       { src: "/Images/IAA_Logo.svg", alt: "" },
       { src: "/Images/ACCA_Logo.png", alt: "" },

@@ -70,37 +70,37 @@ export const TeamComponentDefaults: TeamComponentProps = {
     {
       name: 'Dr Udai Paliwal',
       role: 'Dean and Director, ICNU',
-      image: '../../public/Images/dr_udai_paliwal.jpeg',
+      image: '/Images/dr_udai_paliwal.jpeg',
       linkedin: 'https://www.linkedin.com/in/prof-udai-paliwal-55aa709a/',
     },
     {
       name: 'Dr Sanjay Bhayani',
       role: 'General Secretary, Indian Accounting Association',
-      image: '../../public/Images/dr_sanjay_bhayani.jpeg',
+      image: '/Images/dr_sanjay_bhayani.jpeg',
       linkedin: 'https://www.linkedin.com/in/sanjay-bhayani-505b901a0/',
     },
     {
       name: 'Prof Gaurang Rawal',
       role: 'Associate Professor, ITNU',
-      image: '../../public/Images/prof_gaurang_raval.jpg',
+      image: '/Images/prof_gaurang_raval.jpg',
       linkedin: 'https://www.linkedin.com/in/gaurang-raval-919b0017/',
     },
     {
       name: 'Prof Jitendra Bhatia',
       role: 'Associate Professor, ITNU',
-      image: '../../public/Images/prof_jitendra_bhatia.jpeg',
+      image: '/Images/prof_jitendra_bhatia.jpeg',
       linkedin: 'https://www.linkedin.com/in/jitendrabbhatia/',
     },
     {
       name: 'Prof Gopika Juneja',
       role: 'Assistant Professor, ICNU',
-      image: '../../public/Images/prof_gopika_juneja.jpeg',
+      image: '/Images/prof_gopika_juneja.jpeg',
       linkedin: 'https://www.linkedin.com/in/gopika-juneja-a6534b156/',
     },
     {
       name: 'Prof Sunil Gautam',
       role: 'Assistant Professor, ITNU',
-      image: '../../public/Images/prof_sunil_gautam.jpeg',
+      image: '/Images/prof_sunil_gautam.jpeg',
       linkedin: 'https://www.linkedin.com/in/sunil-g-a02658246/',
     },
   ],
@@ -108,7 +108,7 @@ export const TeamComponentDefaults: TeamComponentProps = {
     {
       name: 'Devam Patel',
       role: 'ITNU',
-      image: '../../public/Images/Devam_Patel.jpg',
+      image: '/Images/Devam_Patel.jpg',
       linkedin: 'https://www.linkedin.com/in/devam-patel-216112271/',
     },
     {

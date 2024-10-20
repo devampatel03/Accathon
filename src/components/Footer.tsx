@@ -93,7 +93,7 @@ export const Footer4 = (props: Footer4Props) => {
 export const Footer4Defaults: Footer4Props = {
   logo: {
     url: "#",
-    src: "../../public/Images/Accathon Logo.png",
+    src: "/Images/Accathon Logo.png",
     alt: "Logo image",
   },
   columnLinks: [

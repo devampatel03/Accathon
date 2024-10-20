@@ -1,0 +1,25 @@
+/* Add this to your CSS file */
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+
+.custom-grid > * {
+  margin-bottom: 0; /* Remove default margin */
+}
+
+.custom-grid {
+  gap: 1rem; /* Set your preferred gap here */
+}

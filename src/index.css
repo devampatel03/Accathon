@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-grid > * {
+    margin-bottom: 0;
+     /* Remove default margin */
+  }
+  
+  .custom-grid {
+    gap: 0.01rem; /* Set your preferred gap here */
+  }
+  

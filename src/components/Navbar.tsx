@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import { Button, ButtonProps, useMediaQuery } from "@relume_io/relume-ui";
@@ -24,6 +31,7 @@ type Props = {
 
 export type Navbar13Props = React.ComponentPropsWithoutRef<"section"> & Partial<Props>;
 
+
 export const Navbar13 = (props: Navbar13Props) => {
   const { logo, navLinks, button } = {
     ...Navbar13Defaults,
@@ -42,30 +50,21 @@ export const Navbar13 = (props: Navbar13Props) => {
     }
   }, []);
 
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (
-        menuRef.current &&
-        !menuRef.current.contains(event.target as Node) &&
-        buttonRef.current &&
-        !buttonRef.current.contains(event.target as Node)
-      ) {
-        setIsMobileMenuOpen(false);
-      }
-    };
-
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
-
   return (
     <nav className="relative z-[999] mx-auto mt-5 flex w-full items-start justify-center bg-background-primary px-[5%] md:mt-6 lg:mx-[5%] lg:w-auto lg:px-0">
       <div className="flex min-h-16 w-full items-center justify-between rounded-full mb-5 gap-4 border border-border-primary border-2 px-5 md:min-h-18 md:px-8 lg:w-auto">
+        
+        {/* Countdown Timer on the left of the Navbar */}
+        <div className="absolute left-[-120px] flex items-center">
+          
+        </div>
+
+        {/* Navbar Logo */}
         <a href={logo.url}>
           <img src={logo.src} alt={logo.alt} className="w-20 h-20" />
         </a>
+        
+        {/* Navbar Links */}
         <motion.div
           variants={{
             open: { height: "var(--height, 100vh)" },
@@ -99,11 +98,7 @@ export const Navbar13 = (props: Navbar13Props) => {
                     <a
                       href={navLink.url}
                       className={`relative block py-3 text-center text-md lg:px-4 lg:py-2 lg:text-left lg:text-lg hover:font-bold hover:text-purple-700
-                        ${
-                          activePage === navLink.url
-                            ? "font-bold text-purple-700"
-                            : ""
-                        }`}
+                        ${activePage === navLink.url ? "font-bold text-purple-700" : ""}`}
                     >
                       {navLink.title}
                     </a>
@@ -113,6 +108,9 @@ export const Navbar13 = (props: Navbar13Props) => {
             </div>
           </motion.div>
         </motion.div>
+        {/* End of Navbar Links */}
+
+        {/* Button and Mobile Menu */}
         <div className="flex items-center justify-center gap-4">
           <Button {...button}>{button.title}</Button>
           <button
@@ -120,27 +118,16 @@ export const Navbar13 = (props: Navbar13Props) => {
             className="-mr-2 flex size-12 flex-col items-center justify-center justify-self-end lg:hidden"
             onClick={() => setIsMobileMenuOpen((prev) => !prev)}
           >
-            <motion.span
-              className="my-[3px] h-0.5 w-6 bg-black"
-              animate={isMobileMenuOpen ? "open" : "close"}
-              variants={topLineVariants}
-            />
-            <motion.span
-              className="my-[3px] h-0.5 w-6 bg-black"
-              animate={isMobileMenuOpen ? "open" : "close"}
-              variants={middleLineVariants}
-            />
-            <motion.span
-              className="my-[3px] h-0.5 w-6 bg-black"
-              animate={isMobileMenuOpen ? "open" : "close"}
-              variants={bottomLineVariants}
-            />
+            <motion.span className="my-[3px] h-0.5 w-6 bg-black" />
+            <motion.span className="my-[3px] h-0.5 w-6 bg-black" />
+            <motion.span className="my-[3px] h-0.5 w-6 bg-black" />
           </button>
         </div>
       </div>
     </nav>
   );
 };
+
 
 const SubMenu = ({ navLink, isMobile }: { navLink: NavLink; isMobile: boolean }) => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

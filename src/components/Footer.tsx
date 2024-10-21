@@ -108,11 +108,11 @@ export const Footer4Defaults: Footer4Props = {
     },
   ],
   socialMediaLinks: [
-    { url: "#", icon: <BiLogoFacebookCircle className="size-6" /> },
-    { url: "#", icon: <BiLogoInstagram className="size-6" /> },
-    { url: "#", icon: <FaXTwitter className="size-6 p-0.5" /> },
-    { url: "#", icon: <BiLogoLinkedinSquare className="size-6" /> },
-    { url: "#", icon: <BiLogoYoutube className="size-6" /> },
+    { url: "https://www.facebook.com/NirmaUniCom/", icon: <BiLogoFacebookCircle className="size-6" /> },
+    { url: "https://www.instagram.com/nirma_commerce/", icon: <BiLogoInstagram className="size-6" /> },
+    // { url: "#", icon: <FaXTwitter className="size-6 p-0.5" /> },
+    { url: "https://www.linkedin.com/company/institute-of-commerce-nirma-university/", icon: <BiLogoLinkedinSquare className="size-6" /> },
+    { url: "https://youtube.com/@icnuofficial7653?si=Cm9oaSpkSwMhqCzz", icon: <BiLogoYoutube className="size-6" /> },
   ],
   footerText: "",
   footerLinks: [

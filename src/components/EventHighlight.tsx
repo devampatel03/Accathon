@@ -139,39 +139,39 @@ export const Layout415Defaults: Layout415Props = {
   featureSections: [
     {
       icon: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg",
-        alt: "Relume logo 1",
+        src: "/Images/Accathon Logo.png",
+        alt: "",
       },
-      title: "Subheading one",
+      title: "Subheading",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "Accathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. ",
     },
     {
       icon: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg",
-        alt: "Relume logo 2",
+        src: "/Images/Accathon Logo.png",
+        alt: "",
       },
-      title: "Subheading two",
+      title: "Subheading",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "Accathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. ",
     },
     {
       icon: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg",
-        alt: "Relume logo 3",
+        src: "/Images/Accathon Logo.png",
+        alt: "",
       },
-      title: "Subheading three",
+      title: "Subheading",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "Accathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. ",
     },
     {
       icon: {
-        src: "https://d22po4pjz3o32e.cloudfront.net/relume-icon.svg",
-        alt: "Relume logo 4",
+        src: "/Images/Accathon Logo.png",
+        alt: "  ",
       },
-      title: "Subheading four",
+      title: "Subheading",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.",
+        "Accathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. ",
     },
   ],
 };

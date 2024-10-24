@@ -120,13 +120,13 @@ export const TeamComponentDefaults: TeamComponentProps = {
     {
       name: 'Keshini Trivedi',
       role: 'ITNU',
-      image: '/Images/Keshini_Trivedi.png',
+      image: '/Images/Keshini_Trivedi.jpg',
       linkedin: 'https://www.linkedin.com/in/keshini-trivedi/',
     },
     {
       name: 'Jainish Gandhi',
       role: 'ITNU',
-      image: '/Images/Jainish_Gandhi.png',
+      image: '/Images/Jainish_Gandhi.jpg',
       linkedin: 'https://www.linkedin.com/in/jainish-gandhi/',
     },
     {

@@ -79,33 +79,33 @@ export const Header78Defaults: Header78Props = {
 
   images: [
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 1",
+      src: "/Images/gallery/image-1.png",
+      alt: " placeholder image 1",
     },
 
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 2",
+      src: "/Images/gallery/image-2.JPG",
+      alt: " placeholder image 2",
     },
 
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 3",
+      src: "/Images/gallery/image-3.JPG",
+      alt: " placeholder image 3",
     },
 
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 4",
+      src: "/Images/gallery/image-4.JPG",
+      alt: " placeholder image 4",
     },
 
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 5",
+      src: "/Images/gallery/image-5.JPG",
+      alt: " placeholder image 5"
     },
 
     {
-      src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image.svg",
-      alt: "Relume placeholder image 6",
+      src: "/Images/gallery/image-6.JPG",
+      alt: " placeholder image 6",
     },
   ],
 };

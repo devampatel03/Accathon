@@ -15,7 +15,7 @@ type ImageProps = {
 type FeatureSectionProps = {
   icon: ImageProps;
   title: string;
-  description: string;
+  description: React.ReactNode;
 };
 
 type Props = {
@@ -142,36 +142,82 @@ export const Layout415Defaults: Layout415Props = {
         src: "/Images/Accathon Logo.png",
         alt: "",
       },
-      title: "Subheading",
+      title: "What is Accathon?",
       description:
-        "Accathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. ",
+        "Accathon is a nationwide competition to provide students with a collaborative platform to solve some of the pressing interdisciplinary problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving.",
     },
     {
       icon: {
         src: "/Images/Accathon Logo.png",
         alt: "",
       },
-      title: "Subheading",
+      title: "Why should I participate in Accathon?",
       description:
-        "Accathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. ",
+        "Accathon challenges participants to think outside the box and innovate real-world solutions, work with cutting-edge technology, and enhance their skills. Team-based format promotes collaboration, communication, and valuable networking opportunities. ",
     },
     {
       icon: {
         src: "/Images/Accathon Logo.png",
         alt: "",
       },
-      title: "Subheading",
+      title: "Is this Hackathon online or offline?",
       description:
-        "Accathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. ",
+        "The First Round is online, while the Second (Final) Round will take place offline at Nirma University Campus. Accommodation and travel costs (sleeper class) will be reimbursed for participants in the offline round.",
     },
     {
       icon: {
         src: "/Images/Accathon Logo.png",
         alt: "  ",
       },
-      title: "Subheading",
+      title: "Eligibility & Team Composition",
       description:
-        "Accathon is a nationwide initiative to provide students with a collaborative platform to solve some of the pressing interdisciplinary problems the society and/or the industries face, and thus inculcate a culture of product innovation and a mindset of problem-solving. ",
+        "Undergraduate students from universities and colleges across India are welcome! Each team should have 4 members, with at least 2 from commerce or management. Each participant may only be part of one team. If you’re a working professional or faculty member, you can mentor a team based on your expertise!",
+    },
+    {
+      icon: {
+        src: "/Images/Accathon Logo.png",
+        alt: "  ",
+      },
+      title: "Registration Details",
+      description:
+        "Team registration is mandatory. Each team must have a designated leader, and only the team leader needs to sign up. The registration fee is ₹500 per team, non-refundable. Each team may register for only one track—so pick your focus and dive in!",
+    },
+    {
+      icon: {
+        src: "/Images/Accathon Logo.png",
+        alt: "  ",
+      },
+      title: "Prize Money",
+      description: (
+        <>
+          Compete for exciting cash prizes!
+          <br />
+          • 1st Prize: ₹15,000
+          <br />
+          • 2nd Prize: ₹10,000
+          <br />
+          Winners will be awarded for each theme, so bring your best ideas!
+        </>
+      ),
+    },
+    
+    {
+      icon: {
+        src: "/Images/Accathon Logo.png",
+        alt: "  ",
+      },
+      title: "Participation Perks",
+      description:
+        "Join us for an enriching experience! Beyond the prizes, participants can engage in brainstorming and collaborate with peers to tackle real-world challenges and create impactful ideas. Unleash your creativity!",
+    },
+    {
+      icon: {
+        src: "/Images/Accathon Logo.png",
+        alt: "  ",
+      },
+      title: "Certificates & Submission",
+      description:
+        "Get recognized for your efforts! All active participants who submit and present their solutions will receive e-certificates. Final Round attendees will receive printed certificates. Plus, enjoy a hassle-free submission process—no scrutiny as long as you meet the eligibility criteria!",
     },
   ],
 };

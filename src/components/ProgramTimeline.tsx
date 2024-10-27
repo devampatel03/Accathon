@@ -3,7 +3,8 @@ import type { ButtonProps } from "@relume_io/relume-ui";
 import React from "react";
 
 type ImageProps = {
-  src: string;
+  srcLandscape: string;
+  srcPortrait: string;
   alt?: string;
 };
 
@@ -30,12 +31,17 @@ export const Header26 = (props: Header26Props) => {
               <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">
                 {heading}
               </h1>
-              
-              
             </div>
           </div>
           <div>
-            <img src={image.src} className="size-full object-cover" alt={image.alt} />
+            <picture>
+              <source media="(min-width: 768px)" srcSet={image.srcLandscape} />
+              <img
+                src={image.srcPortrait}
+                className="w-full h-auto object-cover"
+                alt={image.alt}
+              />
+            </picture>
           </div>
         </div>
       </div>
@@ -46,7 +52,8 @@ export const Header26 = (props: Header26Props) => {
 export const Header26Defaults: Header26Props = {
   heading: "Program Timeline",
   image: {
-    src: "https://d22po4pjz3o32e.cloudfront.net/placeholder-image-landscape.svg",
+    srcLandscape: "/Images/poster/Landscape.png",
+    srcPortrait: "/Images/poster/Portrait.png",
     alt: "Relume placeholder image",
   },
 };

@@ -106,6 +106,48 @@ export const TeamComponentDefaults: TeamComponentProps = {
   ],
   team: [
     {
+      name: 'Gungun Gangwani',
+      role: 'ICNU',
+      image: '../../public/Images/Gungun Gangwani.jpg',
+      linkedin: 'https://www.linkedin.com/in/gungun-gangwani-692a71217?',
+    },
+    {
+      name: 'Palak Sharma',
+      role: 'ICNU',
+      image: '../../public/Images/Palak Sharma.jpg',
+      linkedin: 'https://www.linkedin.com/in/palak-sharma-7a6494247?',
+    },
+    {
+      name: 'Vedika Aggarwal',
+      role: 'ICNU',
+      image: '../../public/Images/Vedika Aggarwal .jpg',
+      linkedin: 'https://www.linkedin.com/in/vedika-aggarwal-aab10424b?',
+    },
+    {
+      name: 'Joy Vadsmiya',
+      role: 'ICNU',
+      image: '../../public/Images/Joy Vadsmiya.jpg',
+      linkedin: 'https://www.linkedin.com/in/joy-vadsmiya-0267011b7?',
+    },
+    {
+      name: 'Ayush Savnani',
+      role: 'ICNU',
+      image: '../../public/Images/Ayush Savnani.jpg',
+      linkedin: 'https://www.linkedin.com/in/ayush-savnani-39959a267?',
+    },
+    {
+      name: 'Mehul Godha',
+      role: 'ICNU',
+      image: '../../public/Images/Mehul Godha.jpg',
+      linkedin: 'https://www.linkedin.com/in/mehul-godha-0aab48267?',
+    },
+    {
+      name: 'Shaurya Jain',
+      role: 'ICNU',
+      image: '../../public/Images/Shaurya Jain.jpg',
+      linkedin: 'https://www.linkedin.com/in/shaurya-jain-017186284?',
+    },
+    {
       name: 'Devam Patel',
       role: 'ITNU',
       image: '/Images/Devam_Patel.jpg',
@@ -132,7 +174,7 @@ export const TeamComponentDefaults: TeamComponentProps = {
     {
       name: 'Hetavi Patel',
       role: 'ITNU',
-      image: '/Images/Accathon Logo.png',
+      image: '../../public/Images/Hetavi_Patel.jpg',
       linkedin: 'https://www.linkedin.com/',
     },
   ],

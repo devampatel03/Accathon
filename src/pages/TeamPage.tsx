@@ -80,16 +80,16 @@ export const TeamComponentDefaults: TeamComponentProps = {
       linkedin: 'https://www.linkedin.com/in/sanjay-bhayani-505b901a0/',
     },
     {
-      name: 'Prof Gaurang Rawal',
+      name: 'Dr Gaurang Rawal',
       role: 'Associate Professor, ITNU',
       image: '/Images/prof_gaurang_raval.jpg',
       linkedin: 'https://www.linkedin.com/in/gaurang-raval-919b0017/',
     },
     {
-      name: 'Prof Jitendra Bhatia',
+      name: 'Dr Saurin Parikh',
       role: 'Associate Professor, ITNU',
-      image: '/Images/prof_jitendra_bhatia.jpeg',
-      linkedin: 'https://www.linkedin.com/in/jitendrabbhatia/',
+      image: '/Images/Saurin_Parikh.jpg',
+      linkedin: 'https://www.linkedin.com/in/saurin-parikh-a60a8a5a',
     },
     {
       name: 'Prof Gopika Juneja',
@@ -98,53 +98,60 @@ export const TeamComponentDefaults: TeamComponentProps = {
       linkedin: 'https://www.linkedin.com/in/gopika-juneja-a6534b156/',
     },
     {
-      name: 'Prof Sunil Gautam',
+      name: 'Dr Sunil Gautam',
       role: 'Assistant Professor, ITNU',
       image: '/Images/prof_sunil_gautam.jpeg',
       linkedin: 'https://www.linkedin.com/in/sunil-g-a02658246/',
     },
+    {
+      name: 'Dr Rajan Datt',
+      role: 'Assistant Professor, ITNU',
+      image: '/Images/Rajan_Dutt.jpg',
+      linkedin: 'https://in.linkedin.com/in/dr-rajan-datt-b823171a',
+    },
+
   ],
   team: [
     {
       name: 'Gungun Gangwani',
       role: 'ICNU',
-      image: '../../public/Images/Gungun Gangwani.jpg',
+      image: '/Images/Gungun Gangwani.jpg',
       linkedin: 'https://www.linkedin.com/in/gungun-gangwani-692a71217?',
     },
     {
       name: 'Palak Sharma',
       role: 'ICNU',
-      image: '../../public/Images/Palak Sharma.jpg',
+      image: '/Images/Palak Sharma.jpg',
       linkedin: 'https://www.linkedin.com/in/palak-sharma-7a6494247?',
     },
     {
       name: 'Vedika Aggarwal',
       role: 'ICNU',
-      image: '../../public/Images/Vedika Aggarwal .jpg',
+      image: '/Images/Vedika Aggarwal .jpg',
       linkedin: 'https://www.linkedin.com/in/vedika-aggarwal-aab10424b?',
     },
     {
       name: 'Joy Vadsmiya',
       role: 'ICNU',
-      image: '../../public/Images/Joy Vadsmiya.jpg',
+      image: '/Images/Joy Vadsmiya.jpg',
       linkedin: 'https://www.linkedin.com/in/joy-vadsmiya-0267011b7?',
     },
     {
       name: 'Ayush Savnani',
       role: 'ICNU',
-      image: '../../public/Images/Ayush Savnani.jpg',
+      image: '/Images/Ayush Savnani.jpg',
       linkedin: 'https://www.linkedin.com/in/ayush-savnani-39959a267?',
     },
     {
       name: 'Mehul Godha',
       role: 'ICNU',
-      image: '../../public/Images/Mehul Godha.jpg',
+      image: '/Images/Mehul Godha.jpg',
       linkedin: 'https://www.linkedin.com/in/mehul-godha-0aab48267?',
     },
     {
       name: 'Shaurya Jain',
       role: 'ICNU',
-      image: '../../public/Images/Shaurya Jain.jpg',
+      image: '/Images/Shaurya Jain.jpg',
       linkedin: 'https://www.linkedin.com/in/shaurya-jain-017186284?',
     },
     {
@@ -174,7 +181,7 @@ export const TeamComponentDefaults: TeamComponentProps = {
     {
       name: 'Hetavi Patel',
       role: 'ITNU',
-      image: '../../public/Images/Hetavi_Patel.jpg',
+      image: '/Images/Hetavi_Patel.jpg',
       linkedin: 'https://www.linkedin.com/',
     },
   ],

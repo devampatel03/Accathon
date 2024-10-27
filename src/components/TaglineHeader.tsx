@@ -54,7 +54,7 @@ export const Header30Defaults: Header30Props = {
     "",
   buttons: [{ title: "Let's Innovate" },],
   image: {
-    src: "../../public/Images/main-image-horizontal.jpg",
+    src: "/Images/main-image-horizontal.jpg",
     alt: " placeholder image",
   },
 };

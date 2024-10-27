@@ -43,12 +43,12 @@ export const AboutComponentDefaults: AboutComponentProps = {
             image:"/Images/Nirma_logo.jpg"
         },
         {
-            heading: "Instiute of Technology",
+            heading: "Institute of Technology",
             description: "The Institute is renowned for its robust academic programs, quality teaching, and fostering overall personality development. It blends young and experienced faculties committed to teaching and research, offering multidisciplinary programs in Engineering and Technology. Known for discipline, ethics, and quality education, the Institute is a part of Nirma University (NAAC ‘A+’ in 2022). Ranked between 100 to 150 by NIRF among 4000+ engineering colleges, it consistently tops state rankings and is in the Top 15 self-financed colleges nationally. All BTech programs are NBA accredited (Tier-I). Implementing the National Education Policy 2020, the curriculum includes health, environment, and sustainable living applications to enhance youth employability.",
             image:"/Images/ITNU_Logo.jpg"
         },
         {
-            heading: "Instiute of Commerce",
+            heading: "Institute of Commerce",
             description: "Established in 2016, the Institute of Commerce symbolises the principles of brilliance, excellence and professionalism. It imparts top-class education in the fields of Accounting as well as Banking, Financial Services and Insurance (BFSI). The Institute believes in serious academic pursuit by means of a prudent mix of relevance and rigour in its curriculum design and delivery to impart relevant skills, knowledge and ideas through intellectually stimulating debates and discussions, innovative teaching pedagogies and exposure to relevant industry practice at all levels. The campus infrastructure and amenities are comparable to any reputed university around the world. It hosts fully equipped classrooms where focused discussions, interactive study sessions, role plays, presentations, case studies, and practical sessions are held.",
             image:"/Images/ICNU_logo.png"
         },

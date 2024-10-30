@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "@relume_io/relume-ui";
 import type { ButtonProps } from "@relume_io/relume-ui";
+import '../../src/App.css';
 
 type ImageProps = {
   src: string;
@@ -8,7 +9,7 @@ type ImageProps = {
 };
 
 type Props = {
-  heading: string;
+  heading: React.ReactNode;
   description: string;
   buttons: ButtonProps[];
   image: ImageProps;
@@ -49,7 +50,9 @@ export const Header30 = (props: Header30Props) => {
 };
 
 export const Header30Defaults: Header30Props = {
-  heading: "Commerce Conclave: Driving Innovation in Finance and GST – Empowering Students to Shape the Future!",
+  heading: (<>
+  <span className=" custom-color1">Commerce Conclave:</span> Driving Innovation in <span className="text-black">Finance</span> and <span className="text-black">GST</span> – Empowering Students to Shape the Future!
+  </>),
   description:
     "",
   buttons: [{ title: "Let's Innovate" },],

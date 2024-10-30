@@ -51,8 +51,8 @@ export const Navbar13 = (props: Navbar13Props) => {
   }, []);
 
   return (
-    <nav className="relative z-[999] mx-auto mt-5 flex w-full items-start justify-center bg-background-primary px-[5%] md:mt-6 lg:mx-[5%] lg:w-auto lg:px-0">
-      <div className="flex min-h-16 w-full items-center justify-between rounded-full mb-5 gap-4 border border-border-primary border-2 px-5 md:min-h-18 md:px-8 lg:w-auto">
+    <nav className="relative z-[999] mx-auto mt-5 flex w-full items-start justify-center  px-[5%] md:mt-6 lg:mx-[5%] lg:w-auto lg:px-0">
+      <div className="flex min-h-16 w-full items-center justify-between rounded-full bg-background-primary mb-5 gap-4 border border-border-primary border-2 px-5 md:min-h-18 md:px-8 lg:w-auto">
         
         {/* Countdown Timer on the left of the Navbar */}
         <div className="absolute left-[-120px] flex items-center">
@@ -88,7 +88,7 @@ export const Navbar13 = (props: Navbar13Props) => {
           >
             <div
               ref={menuRef}
-              className="flex w-full flex-col border border-t-0 border-border-primary bg-background-primary p-5 md:p-8 lg:w-auto lg:flex-row lg:border-none lg:bg-none lg:p-0"
+              className="flex w-full flex-col border border-t-0 border-border-primary bg-blur p-5 md:p-8 lg:w-auto lg:flex-row lg:border-none lg:bg-none lg:p-0"
             >
               {navLinks.map((navLink, index) => (
                 <div key={index}>

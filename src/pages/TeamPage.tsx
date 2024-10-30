@@ -17,15 +17,15 @@ export const TeamComponent: React.FC<TeamComponentProps> = (props) => {
 
       
 
-      <section className="bg-white py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <section id="relume" className="px-[5%] -mt-8 mb-10 py-3 md:py-5 lg:py-8 bg-blue-100">
-          <div className="container max-w-lg -ml-5">
-          <h3 className="text-3xl font-bold leading-[1.2] md:text-4xl lg:text-5xl">Faculty Committee</h3>
+      <section className=" py-16">
+        <div className="max-w-7xl mx-auto px-0 sm:px-0 lg:px-0">
+        <section id="relume" className="px-[10%] -mt-8 mb-10 py-3 md:py-5 lg:py-8 bg-blue-200 ">
+        <div className="container max-w-full text-center">
+          <h3 className="text-4xl font-bold leading-[1.2] md:text-5xl lg:text-6xl">Faculty Committee</h3>
           
-          </div>
+        </div>
         </section>
-          <div className="grid grid-cols-1 ml-28 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10"> 
+          <div className="grid grid-cols-1 ml-10 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10"> 
             {faculty.map((member) => (
               <Card
                 key={member.name}
@@ -39,15 +39,19 @@ export const TeamComponent: React.FC<TeamComponentProps> = (props) => {
         </div>
       </section>
 
-      <section className="bg-gray-50 py-16">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <section id="relume" className="px-[5%] -mt-8 mb-10 py-3 md:py-5 lg:py-8 bg-blue-100">
-          <div className="container max-w-lg -ml-5">
+      <section className=" py-16">
+        <div className="max-w-7xl mx-auto px-0 sm:px-0 lg:px-0">
+        <section id="relume" className="px-[5%] -mt-8 mb-10 py-3 w-full md:py-5 lg:py-8 bg-blue-200 ">
+          {/* <div className="container max-w-lg -ml-5">
           <h3 className="text-3xl font-bold leading-[1.2] md:text-4xl lg:text-5xl">Student Committee</h3>
           
-          </div>
+          </div> */}
+          <div className="container max-w-full text-center">
+          <h3 className="text-4xl font-bold leading-[1.2] md:text-5xl lg:text-6xl">Student Committee</h3>
+          
+        </div>
         </section>
-          <div className="grid grid-cols-1 ml-28 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10"> {/* Added custom-grid */}
+          <div className="grid grid-cols-1 ml-10 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10"> 
             {team.map((member) => (
               <Card
                 key={member.name}

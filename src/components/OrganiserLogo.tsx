@@ -20,7 +20,7 @@ type ImageProps = {
     return (
       <section id="relume" className="px-[5%] py-12 md:py-16 lg:py-20">
         <div className="container grid grid-cols-1 items-start justify-start gap-x-12 gap-y-8 md:grid-cols-[max-content_1fr] md:items-center md:justify-between md:gap-y-4 lg:gap-x-16">
-          <h1 className="font-bold leading-[1.2] md:max-w-[16rem] md:text-md md:leading-[1.2] lg:max-w-xxs lg:text-3xl">
+          <h1 className="font-bold leading-[1.2] text-xl md:max-w-[16rem] md:text-xl md:leading-[1.2] lg:max-w-xxs lg:text-3xl">
             {heading}
           </h1>
           <div className=" ml-16 grid grid-cols-2 items-center justify-end gap-x-4 gap-y-4 pt-4 sm:grid-cols-3 md:gap-x-8 md:pt-0 lg:grid-cols-5">

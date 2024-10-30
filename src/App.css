@@ -23,3 +23,14 @@
 .custom-grid {
   gap: 1rem; /* Set your preferred gap here */
 }
+
+.custom-color1 {
+  color: #16abe7d0;
+}
+
+
+
+body {
+  
+  background: linear-gradient(180deg, rgba(2,56,89,1) 10%, rgba(26,90,117,1) 20%, rgba(68,148,166,1) 70%, rgba(242,240,240,1) 97%);
+  }

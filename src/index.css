@@ -12,3 +12,10 @@
     gap: 0.01rem; /* Set your preferred gap here */
   }
   
+.gradient-background1 {
+    background: linear-gradient(180deg, #023859 50%, rgba(26, 90, 117, 1) 85%);
+  }
+  
+.gradient-background2 {
+    background: linear-gradient(180deg, rgba(26, 90, 117, 1) 30%, rgba(68, 148, 166, 1) 60%, rgba(255, 255, 255, 0) 80%);
+  }

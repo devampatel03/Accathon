@@ -33,7 +33,7 @@ export const Contact9 = (props: Contact9Props) => {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=abc@gmail.com&su=Queries regarding ACCATHON 2.0&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+    const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=gopikajuneja@nirmauni.ac.in&su=Queries regarding ACCATHON 2.0&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
     window.open(mailtoLink, '_blank');
   };
   
@@ -42,11 +42,11 @@ export const Contact9 = (props: Contact9Props) => {
     <>
       <Navbar13 />
       <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
-        <div className="container grid grid-cols-1 items-stretch gap-y-12 md:grid-flow-row md:grid-cols-2 md:gap-x-12 lg:gap-x-20">
+        <div className="container grid grid-cols-1 bg-white p-6 rounded-3xl items-stretch gap-y-12 md:grid-flow-row md:grid-cols-2 md:gap-x-12 lg:gap-x-20">
           <div>
             <img src={image.src} alt={image.alt} className="size-full object-cover" />
           </div>
-          <div>
+          <div className="">
             <div className="rb-6 mb-6 md:mb-8">
               <p className="mb-3 font-semibold md:mb-4">{tagline}</p>
               <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">

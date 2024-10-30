@@ -20,7 +20,7 @@ export const AboutComponent: React.FC<AboutComponentProps> = (props) => {
           
         </div>
       </section>
-        <div>
+        <div className=''>
         {organiser.map((member)=>(
             <Header1 heading={member.heading} description={member.description} image={{src:member.image}}/>
         ))}
@@ -33,7 +33,7 @@ export const AboutComponent: React.FC<AboutComponentProps> = (props) => {
 export const AboutComponentDefaults: AboutComponentProps = {
     organiser: [
         {
-            heading: "IAA",
+            heading: "Indian Accounting Association",
             description: "The Indian Accounting Association (IAA) serves as a key platform for academicians, professionals, and practitioners from various sectors. Founded on March 15, 1969, and inaugurated on February 14, 1970, the IAA promotes accounting knowledge and research both in India and abroad. It is a member of the International Association of Accounting Education and Research (IAAER) and is respected by the American Accounting Association (AAA).IAA operates 57 branches across India with over 7300 life members and an affiliate Research Foundation in Kolkata. It publishes the biannual 'Indian Journal of Accounting' and offers awards like the IAA Young Research Award and IAA fellowship. The Association provides Life and Annual Memberships for individuals and institutions, attracting numerous delegates from India and beyond to its conferences.",
             image:"/Images/IAA_Logo.svg"
         },

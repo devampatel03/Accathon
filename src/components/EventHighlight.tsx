@@ -192,9 +192,9 @@ export const Layout415Defaults: Layout415Props = {
         <>
           Compete for exciting cash prizes!
           <br />
-          • 1st Prize: ₹15,000
+          • 1st Prize: ₹25,000
           <br />
-          • 2nd Prize: ₹10,000
+          • 2nd Prize: 15,000
           <br />
           Winners will be awarded for each theme, so bring your best ideas!
         </>

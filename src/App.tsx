@@ -14,8 +14,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          {/* <Route path="/" element={<Navigate to="/home" />} /> */}
-          <Route path="/" element={<HomeComponent />} />
+          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/home" element={<HomeComponent />} />
           <Route path="/about" element={<AboutComponent {...AboutComponentDefaults} />} />
           <Route path="/team" element={<TeamComponent {...TeamComponentDefaults} />} />
           <Route path="/contact" element={<Contact9 />} />

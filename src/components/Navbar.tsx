@@ -10,6 +10,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { Button, ButtonProps, useMediaQuery } from "@relume_io/relume-ui";
 import { AnimatePresence, motion } from "framer-motion";
 import { RxChevronDown } from "react-icons/rx";
+import { redirect } from "react-router-dom";
 
 type ImageProps = {
   url?: string;
@@ -43,6 +44,10 @@ export const Navbar13 = (props: Navbar13Props) => {
   const menuRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
   const [activePage, setActivePage] = useState<string>("");
+
+  const handleRegisterClick = () => {
+    window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScKRZqB3go_NDcAVzLawiKB1ZkMQxamQc20aFprCqh8MT-BJQ/viewform";
+  };
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -112,7 +117,7 @@ export const Navbar13 = (props: Navbar13Props) => {
 
         {/* Button and Mobile Menu */}
         <div className="flex items-center justify-center gap-4">
-          <Button {...button}>{button.title}</Button>
+          <Button {...button}  onClick={handleRegisterClick} >{button.title}</Button>
           <button
             ref={buttonRef}
             className="-mr-2 flex size-12 flex-col items-center justify-center justify-self-end lg:hidden"

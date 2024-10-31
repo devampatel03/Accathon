@@ -54,7 +54,7 @@ export const Header30Defaults: Header30Props = {
     <span>
       <span style={{ color: "#4494A6", textShadow: "5px 5px 3px #023859", fontSize: "3rem" }}>
         ACCATHON 2.0 : 
-      </span> Driving Innovation in <span className="text-black">Accounting</span> and <span className="text-black">Technology</span>: Empowering Students to Shape the Future!
+      </span> Driving Innovation in <span className="custom-color3">Accounting</span> and <span className="custom-color3">Technology</span>: Empowering Students to Shape the Future!
     </span>
   ),
   description: "",

@@ -166,7 +166,7 @@ export const Layout415Defaults: Layout415Props = {
         src: "/Images/Accathon Logo.png",
         alt: "",
       },
-      title: "Is this Hackathon online or offline?",
+      title: "Is this Accathon online or offline?",
       description:
         "The First Round is online, while the Second (Final) Round will take place offline at Nirma University Campus. Accommodation and travel costs (sleeper class) will be reimbursed for participants in the offline round.",
     },

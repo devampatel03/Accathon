@@ -20,7 +20,7 @@ type FeatureSectionProps = {
 
 type Props = {
   tagline: string;
-  heading: string;
+  heading: React.ReactNode;
   description: string;
   buttons: ButtonProps[];
   featureSections: FeatureSectionProps[];
@@ -116,7 +116,9 @@ const FeatureSection = ({
       <div className="rb-6 mb-6 md:mb-8">
         <img src={section.icon.src} alt={section.icon.alt} className="size-12" />
       </div>
-      <h3 className="mb-3 text-xl font-bold md:mb-4 md:text-2xl">{section.title}</h3>
+      <h3 className="text-2xl font-bold md:text-3xl" style={{ color: "#023859", textShadow: "2px 2px 25px #025E73" }}>
+          {section.title}
+        </h3>
       <p>{section.description}</p>
     </motion.div>
   );
@@ -124,7 +126,11 @@ const FeatureSection = ({
 
 export const Layout415Defaults: Layout415Props = {
   tagline: "",
-  heading: "Let's dive into the event and why you should participate .",
+  heading: (
+    <span style={{ color: "white", textShadow: "10px 10px 4px #023859" }}>
+      Let's dive into the event and why you should participate.
+    </span>
+  ),
   description:
     "",
   buttons: [

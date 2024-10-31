@@ -32,10 +32,13 @@ import {
     return (
       <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
         <div className="container">
-          <div className="rb-12 mb-12 w-full max-w-lg md:mb-18 lg:mb-20">
-            <h2 className="rb-5 mb-5 text-5xl font-bold md:mb-6 md:text-7xl lg:text-8xl">
-              {heading}
-            </h2>
+        <div className="container mx-auto text-center">
+          <h2
+            className="rb-5 mb-5 text-4xl font-bold md:text-5xl md:mb-6 lg:text-7xl lg:mb-8"
+            style={{ color: "#000000", textShadow: "3px 3px 4px #4494A6" }}
+          >
+            {heading}
+          </h2>
           </div>
           <Accordion type="multiple">
             {questions.map((question, index) => (
@@ -46,9 +49,12 @@ import {
             ))}
           </Accordion>
           <div className="mt-12 md:mt-18 lg:mt-20">
-            <h4 className="mb-3 text-2xl font-bold md:mb-4 md:text-3xl md:leading-[1.3] lg:text-4xl">
-              {footerHeading}
-            </h4>
+          <h4
+            className="text-lg font-bold sm:text-xl md:text-2xl lg:text-3xl"
+            style={{ color: "#000000", textShadow: "2px 2px 6px #4494A6" }}
+          >
+            {footerHeading}
+          </h4>
             <p className="md:text-md">{footerDescription}</p>
             <div className="mt-6 md:mt-8 border-none">
               <Button {...button}>{button.title}</Button>

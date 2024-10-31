@@ -84,12 +84,6 @@ export const TeamComponentDefaults: TeamComponentProps = {
       linkedin: 'https://www.linkedin.com/in/sanjay-bhayani-505b901a0/',
     },
     {
-      name: 'Dr Gaurang Rawal',
-      role: 'Associate Professor, ITNU',
-      image: '/Images/prof_gaurang_raval.jpg',
-      linkedin: 'https://www.linkedin.com/in/gaurang-raval-919b0017/',
-    },
-    {
       name: 'Dr Saurin Parikh',
       role: 'Associate Professor, ITNU',
       image: '/Images/Saurin_Parikh.jpg',

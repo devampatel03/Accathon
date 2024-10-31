@@ -19,7 +19,12 @@ type Props = {
     return (
       <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28 bg-blue-100">
         <div className="container max-w-lg text-center">
-          <h3 className="text-4xl font-bold leading-[1.2] md:text-5xl lg:text-6xl">{heading}</h3>
+        <h3
+          className="rb-5 mb-5 text-4xl font-bold md:text-5xl md:mb-6 lg:text-7xl lg:mb-8"
+          style={{ color: "#000000", textShadow: "3px 3px 4px rgb(109 170 184)" }}
+        >
+          {heading}  {/* Using the string here */}
+        </h3>
           <Timer3/>
           <div className="mt-6 flex items-center justify-center gap-x-4 md:mt-8">
               {buttons.map((button, index) => (
@@ -35,7 +40,10 @@ type Props = {
   
   export const Layout135Defaults: Layout135Props = {
     heading: "What's stopping you? Hurry up and register now ...",
-    buttons: [{ title: "Register Now" },],
-    
+    buttons: [{
+      title: "Register Now",
+      size: "sm",  // Optional: Add size if necessary
+      className: "bg-[#023859] text-white hover:bg-[#025E73] px-8 py-3 text-xl font-bold rounded-full border-2 border-white transition-all duration-300 ease-in-out",
+    }],
   };
   

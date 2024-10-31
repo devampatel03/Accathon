@@ -50,14 +50,21 @@ export const Header30 = (props: Header30Props) => {
 };
 
 export const Header30Defaults: Header30Props = {
-  heading: (<>
-  <span className=" custom-color1">Commerce Conclave:</span> Driving Innovation in <span className="text-black">Finance</span> and <span className="text-black">GST</span> – Empowering Students to Shape the Future!
-  </>),
-  description:
-    "",
-  buttons: [{ title: "Let's Innovate" },],
+  heading: (
+    <span>
+      <span style={{ color: "#4494A6", textShadow: "5px 5px 3px #023859", fontSize: "3rem" }}>
+        ACCATHON 2.0 : 
+      </span> Driving Innovation in <span className="text-black">Accounting</span> and <span className="text-black">Technology</span>: Empowering Students to Shape the Future!
+    </span>
+  ),
+  description: "",
+  buttons: [{
+    title: "Let's Innovate",
+    size: "sm",
+    className: "bg-[#023859] text-white hover:bg-[#023859] px-8 py-3 text-xl font-bold rounded-full border-2 border-white transition-all duration-300 ease-in-out",
+  }],
   image: {
     src: "/Images/main-image-horizontal.jpg",
-    alt: " placeholder image",
+    alt: "placeholder image",
   },
 };

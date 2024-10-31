@@ -91,7 +91,12 @@ export const Contact9 = (props: Contact9Props) => {
                 />
               </div>
               <div>
-                <Button {...button}>{button.title}</Button>
+              <Button
+                  {...button}
+                  className="bg-[#023859] text-white hover:bg-[#025E73] px-8 py-3 text-xl font-bold rounded-full border-2 border-white transition-all duration-300 ease-in-out"
+                >
+                  {button.title}
+                </Button>
               </div>
             </form>
           </div>

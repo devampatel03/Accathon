@@ -24,7 +24,12 @@ export const Header1 = (props: Header1Props) => {
       <div className="container">
         <div className="grid grid-cols-1 gap-x-20 gap-y-12 md:gap-y-16 lg:grid-cols-2 lg:items-center">
           <div className="bg-blue-200 p-12 rounded-3xl">
-            <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">{heading}</h1>
+          <h1
+              className="mb-5 text-4xl font-bold md:text-6xl lg:text-8xl text-center"
+              style={{ color: "black", textShadow: "5px 5px 6px #868b9a" }}
+            >
+              {heading}
+            </h1>
             <p className="md:text-md">{description}</p>
             
           </div>

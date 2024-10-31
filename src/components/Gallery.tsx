@@ -25,7 +25,12 @@ export const Header78 = (props: Header78Props) => {
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container flex flex-col items-center">
         <div className="rb-12 mb-12 max-w-lg text-center md:mb-18 lg:mb-20">
-          <h1 className="mb-5 text-6xl font-bold md:mb-6 md:text-9xl lg:text-10xl">{heading}</h1>
+        <h1
+            className="rb-5 mb-5 text-4xl font-bold md:text-5xl md:mb-6 lg:text-7xl lg:mb-8 "
+            style={{ color: "#000000", textShadow: "3px 3px 4px #025E73", marginBottom: 0 }}
+          >
+            {heading}
+          </h1>
           
         </div>
 

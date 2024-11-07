@@ -82,7 +82,7 @@ import {
       {
         title: "Is registration mandatory and what's the fee?",
         answer:
-          "Yes, it is mandatory for the team to register, and the registration fee is ₹500 per team. Only one track per team is allowed.",
+          "Yes, it is mandatory for the team to register, and the registration fee is ₹600 per team. Only one track per team is allowed.",
       },
       {
         title: "What if I need to cancel my registration?",

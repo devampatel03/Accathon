@@ -186,7 +186,7 @@ export const Layout415Defaults: Layout415Props = {
       },
       title: "Registration Details",
       description:
-        "Team registration is mandatory. Each team must have a designated leader, and only the team leader needs to sign up. The registration fee is ₹500 per team, non-refundable. Each team may register for only one track—so pick your focus and dive in!",
+        "Team registration is mandatory. Each team must have a designated leader, and only the team leader needs to sign up. The registration fee is ₹600 per team, non-refundable. Each team may register for only one track—so pick your focus and dive in!",
     },
     {
       icon: {

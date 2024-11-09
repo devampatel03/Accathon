@@ -4,18 +4,68 @@ import { Card } from '../components/ProfileCard';
 import { Footer4 } from '../components/Footer';
 
 interface TeamComponentProps {
+  advisors: Array<{ name: string; role: string; image: string; linkedin: string }>;
+  convener: Array<{ name: string; role: string; image: string; linkedin: string }>;
   faculty: Array<{ name: string; role: string; image: string; linkedin: string }>;
   team: Array<{ name: string; role: string; image: string; linkedin: string }>;
 }
 
 export const TeamComponent: React.FC<TeamComponentProps> = (props) => {
-  const { faculty, team } = props;
+  const { advisors,convener,faculty, team } = props;
 
   return (
     <>
       <Navbar13 />
 
+      {/* advisors */}
+
+      <section className=" py-16">
+        <div className="max-w-7xl mx-auto px-0 sm:px-0 lg:px-0">
+        <section id="relume" className="px-[10%] -mt-8 mb-10 py-3 md:py-5 lg:py-8 bg-blue-200 ">
+        <div className="container max-w-full text-center">
+          <h3 className="text-4xl font-bold leading-[1.2] md:text-5xl lg:text-6xl">Advisors </h3>
+          
+        </div>
+        </section>
+          <div className="grid grid-cols-1 ml-10 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10"> 
+            {advisors.map((member) => (
+              <Card
+                key={member.name}
+                name={member.name}
+                image={member.image}
+                role={member.role}
+                linkedin={member.linkedin}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
       
+      {/* accathon convener */}
+
+      <section className=" py-16">
+        <div className="max-w-7xl mx-auto px-0 sm:px-0 lg:px-0">
+        <section id="relume" className="px-[10%] -mt-8 mb-10 py-3 md:py-5 lg:py-8 bg-blue-200 ">
+        <div className="container max-w-full text-center">
+          <h3 className="text-4xl font-bold leading-[1.2] md:text-5xl lg:text-6xl">Accathon Convener</h3>
+          
+        </div>
+        </section>
+          <div className="grid grid-cols-1 ml-10 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10"> 
+            {convener.map((member) => (
+              <Card
+                key={member.name}
+                name={member.name}
+                image={member.image}
+                role={member.role}
+                linkedin={member.linkedin}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* faculty */}
 
       <section className=" py-16">
         <div className="max-w-7xl mx-auto px-0 sm:px-0 lg:px-0">
@@ -38,6 +88,8 @@ export const TeamComponent: React.FC<TeamComponentProps> = (props) => {
           </div>
         </div>
       </section>
+
+      {/* student  */}
 
       <section className=" py-16">
         <div className="max-w-7xl mx-auto px-0 sm:px-0 lg:px-0">
@@ -70,30 +122,61 @@ export const TeamComponent: React.FC<TeamComponentProps> = (props) => {
 };
 
 export const TeamComponentDefaults: TeamComponentProps = {
-  faculty: [
+
+  advisors: [
+    {
+      name: 'Prof K R Sharma ',
+      role: 'Formerly M.L. Sukhadia University, Udaipur',
+      image: '',
+      linkedin: '',
+    },
+    {
+      name: ' Prof. Sanjay Bhayani',
+      role: 'General Secretary, Indian Accounting Association',
+      image: '/Images/dr_sanjay_bhayani.jpeg',
+      linkedin: 'https://www.linkedin.com/in/sanjay-bhayani-505b901a0/',
+    },
+    {
+      name: 'Prof. Anil Kumar',
+      role: 'Sri Ram College of Commerce, Delhi',
+      image: '/Images/anil_kumar.png',
+      linkedin: 'https://www.linkedin.com/in/anil-kumar-srcc?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    },
+    {
+      name: 'Prof. Arindam Das',
+      role: 'University of Bhurdwan, West Bengal',
+      image: '/Images/arindam_das.png',
+      linkedin: 'https://www.linkedin.com/in/dr-arindam-das-1b4b7620?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    },
+    {
+      name: 'Prof. Biju Terrence ',
+      role: 'University of Kerala, Thiruvananthapurm',
+      image: '/Images/biju_terrence.jpg',
+      linkedin: 'https://www.linkedin.com/in/prof-biju-terrence-a273271b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    },
+    {
+      name: 'Dr. Dharen Kumar Pandey',
+      role: 'Indian Institute of Management Sambalpur',
+      image: '/Images/dharen_kumar_pandey.jpg',
+      linkedin: 'https://www.linkedin.com/in/dr-dharen-kumar-pandey-52aa93b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+    },
+    
+  ],
+  convener: [
     {
       name: 'Dr Udai Paliwal',
       role: 'Dean and Director, ICNU',
       image: '/Images/dr_udai_paliwal.jpeg',
       linkedin: 'https://www.linkedin.com/in/prof-udai-paliwal-55aa709a/',
     },
-    {
-      name: 'Dr Sanjay Bhayani',
-      role: 'General Secretary, Indian Accounting Association',
-      image: '/Images/dr_sanjay_bhayani.jpeg',
-      linkedin: 'https://www.linkedin.com/in/sanjay-bhayani-505b901a0/',
-    },
+  ],
+  faculty: [
+    
     {
       name: 'Dr Saurin Parikh',
       role: 'Associate Professor, ITNU',
       image: '/Images/Saurin_Parikh.jpg',
       linkedin: 'https://www.linkedin.com/in/saurin-parikh-a60a8a5a',
-    },
-    {
-      name: 'Prof Gopika Juneja',
-      role: 'Assistant Professor, ICNU',
-      image: '/Images/prof_gopika_juneja.jpeg',
-      linkedin: 'https://www.linkedin.com/in/gopika-juneja-a6534b156/',
     },
     {
       name: 'Dr Sunil Gautam',
@@ -106,6 +189,12 @@ export const TeamComponentDefaults: TeamComponentProps = {
       role: 'Assistant Professor, ITNU',
       image: '/Images/Rajan_Dutt.jpg',
       linkedin: 'https://in.linkedin.com/in/dr-rajan-datt-b823171a',
+    },
+    {
+      name: 'Prof Gopika Juneja',
+      role: 'Assistant Professor, ICNU',
+      image: '/Images/prof_gopika_juneja.jpeg',
+      linkedin: 'https://www.linkedin.com/in/gopika-juneja-a6534b156/',
     },
 
   ],

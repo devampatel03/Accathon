@@ -6,6 +6,7 @@ import { HomeComponent } from './pages/HomePage';
 import { TeamComponent, TeamComponentDefaults } from './pages/TeamPage';
 import { AboutComponent, AboutComponentDefaults } from './pages/AboutPage';
 import {  Contact9 } from './components/ContactUs';
+import { GuidelinesComponent } from './pages/Guidelines';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
           <Route path="/home" element={<HomeComponent />} />
           <Route path="/about" element={<AboutComponent {...AboutComponentDefaults} />} />
           <Route path="/team" element={<TeamComponent {...TeamComponentDefaults} />} />
+          <Route path="/guidelines" element={<GuidelinesComponent />} />
           <Route path="/contact" element={<Contact9 />} />
           
 

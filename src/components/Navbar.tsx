@@ -214,6 +214,11 @@ export const Navbar13Defaults: Navbar13Props = {
       title: "Team",
     },
     {
+      url: "/guidelines",
+      title: "Guidelines",
+    },
+    
+    {
       url: "/contact",
       title: "Contact",
     },

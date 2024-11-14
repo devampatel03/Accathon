@@ -125,8 +125,26 @@ export const TeamComponentDefaults: TeamComponentProps = {
 
   advisors: [
     {
-      name: 'Prof K R Sharma ',
-      role: 'Formerly M.L. Sukhadia University, Udaipur',
+      name: 'Prof. K. R. Sharma ',
+      role: 'Past President, Indian Accounting Association',
+      image: '',
+      linkedin: '',
+    },
+    {
+      name: 'Prof. K. V. Achalapati',
+      role: 'Past President, Indian Accounting Association',
+      image: '',
+      linkedin: '',
+    },
+    {
+      name: 'Prof. G. Soral',
+      role: 'Past President, Indian Accounting Association',
+      image: '',
+      linkedin: '',
+    },
+    {
+      name: 'Prof. V. Appa Rao',
+      role: 'President, Indian Accounting Association',
       image: '',
       linkedin: '',
     },
@@ -138,7 +156,7 @@ export const TeamComponentDefaults: TeamComponentProps = {
     },
     {
       name: 'Prof. Anil Kumar',
-      role: 'Sri Ram College of Commerce, Delhi',
+      role: 'University of Delhi, Delhi',
       image: '/Images/anil_kumar.png',
       linkedin: 'https://www.linkedin.com/in/anil-kumar-srcc?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
     },
@@ -191,7 +209,7 @@ export const TeamComponentDefaults: TeamComponentProps = {
       linkedin: 'https://in.linkedin.com/in/dr-rajan-datt-b823171a',
     },
     {
-      name: 'Prof Gopika Juneja',
+      name: 'Prof. Gopika Juneja',
       role: 'Assistant Professor, ICNU',
       image: '/Images/prof_gopika_juneja.jpeg',
       linkedin: 'https://www.linkedin.com/in/gopika-juneja-a6534b156/',

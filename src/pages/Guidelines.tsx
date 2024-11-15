@@ -35,7 +35,7 @@ export const GuidelinesComponent: React.FC<{}> = () => {
                                 • A screenshot of the payment must also be attached to the Google form.<br/><br/>
                                 • The last day for registration will be 15th December, 2024.<br/><br/>
                                 • The Theme for the event will be common for both rounds which are:<br/>
-                                &nbsp;&nbsp;&nbsp;&nbsp;(i) GST and<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;(i) GST <br/>
                                 &nbsp;&nbsp;&nbsp;&nbsp;(ii) Forensic Accounting<br/>
                                     Students can select the theme of Interest at the time of registration.<br/><br/>
                                 • Round I (Online) will take place on 4th January 2025 and Round II at (Nirma University) will take place on 23-24th January 2025.<br/><br/>

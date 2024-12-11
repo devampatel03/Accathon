@@ -127,7 +127,7 @@ export const TeamComponentDefaults: TeamComponentProps = {
     {
       name: 'Prof. K. R. Sharma ',
       role: 'Past President, Indian Accounting Association',
-      image: '../../public/Images/06 K. R. Sharma.jpg',
+      image: '/Images/06 K. R. Sharma.jpg',
       linkedin: '',
     },
     {

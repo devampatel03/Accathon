@@ -21,6 +21,11 @@ export const Header78 = (props: Header78Props) => {
     ...Header78Defaults,
     ...props,
   } as Props;
+
+  const handleRegisterClick = () => {
+    window.location.href = "https://drive.google.com/file/d/1443jP35gVFL6H3g-tL-cKc557o0Sx5pB/view?usp=sharing";
+  };
+
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container flex flex-col items-center">
@@ -72,7 +77,24 @@ export const Header78 = (props: Header78Props) => {
                 </div>
               ))}
             </div>
+
+
+
+            
           </div>
+        </div>
+        <div>
+            <div className="flex flex-row items-center mt-36">
+            <h4
+            className=" mr-5 text-lg font-bold sm:text-xl md:text-2xl lg:text-3xl"
+            style={{ color: "#000000"}}
+          >
+            ACCATHON 1.0 Report - 
+          </h4>
+          <Button onClick={handleRegisterClick} >
+                          Click Here  
+                        </Button>
+            </div>
         </div>
       </div>
     </section>

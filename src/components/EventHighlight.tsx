@@ -173,11 +173,11 @@ export const Layout415Defaults: Layout415Props = {
     {
       icon: {
         src: "/Images/Accathon Logo.png",
-        alt: "",
+        alt: "  ",
       },
       title: "Prize Money",
       description:
-        "Compete for exciting cash prizes!• 1st Prize:\n₹25,000\n• 2nd Prize: 15,000\nWinners will be awarded for each theme, so bring your best ideas!"
+  "Compete for exciting cash prizes!\n• 1st Prize: ₹25,000\n• 2nd Prize: ₹15,000\nWinners will be awarded for each theme, so bring your best ideas!"
     },
     {
       icon: {
@@ -196,17 +196,7 @@ export const Layout415Defaults: Layout415Props = {
       title: "Registration Details",
       description:
         "Team registration is mandatory. Each team must have a designated leader, and only the team leader needs to sign up. The registration fee is ₹600 per team, non-refundable. Each team may register for only one track—so pick your focus and dive in!",
-    },
-    {
-      icon: {
-        src: "/Images/Accathon Logo.png",
-        alt: "  ",
-      },
-      title: "Prize Money",
-      description:
-  "Compete for exciting cash prizes!\n• 1st Prize: ₹25,000\n• 2nd Prize: ₹15,000\nWinners will be awarded for each theme, so bring your best ideas!"
-    },
-    
+    },    
     {
       icon: {
         src: "/Images/Accathon Logo.png",

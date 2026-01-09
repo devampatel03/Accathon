@@ -30,7 +30,7 @@ import {
       ...props,
     } as Props;
     return (
-      <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+      <section id="relume" className="px-[5%] py-10">
         <div className="container">
         <div className="container mx-auto text-center">
           <h2

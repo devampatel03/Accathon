@@ -2,7 +2,24 @@ import React from 'react';
 import { Navbar13 } from '../components/Navbar';
 import { Footer4 } from '../components/Footer';
 
-export const GuidelinesComponent: React.FC<{}> = () => {
+const rules = [
+    'Each group must consist of 4 members (2 from Commerce or Management fields and 2 from a technological background).',
+    'UG student groups should consist of only UG students.',
+    'PG student groups should consist of only PG students.',
+    'The Google Form must be filled by the Team Leader only, who must provide details of all team members.',
+    'A screenshot of the payment must be attached to the Google Form.',
+    'Round I (Online) will take place on 6th February, 2026 and Round II (Offline at Nirma University) will take place on 6th–7th March, 2026.',
+    'Round I will be an online presentation of the proposed solution to the problem statement. Detailed guidelines will be provided 2 days prior to Round I.',
+    'The time limit for the online presentation will be 15 minutes.',
+    'Evaluation criteria include originality of the idea, level of complexity, clarity and comprehensiveness of the presentation, feasibility, potential impact, practicality, sustainability, user experience, and scope for future development.',
+    'In Round II, participants are required to develop a Mobile App or Website related to the given problem statement and theme.',
+    'The time provided for Round II development will be 12 hours in offline mode, after which final evaluation will take place.',
+    'In Round II, teams must address the problem significance, proposed solution or technology, and the accompanying business model.',
+    'It is mandatory for all participants to carry a valid college ID.',
+    'Travel, accommodation, and meals will be reimbursed for participants attending the offline round.'
+];
+
+export const GuidelinesComponent: React.FC = () => {
     return (
         <>
             <Navbar13 />
@@ -17,40 +34,20 @@ export const GuidelinesComponent: React.FC<{}> = () => {
 
             <section className="px-[5%] py-16 md:py-24 lg:py-28">
                 <div className="container">
-                    <div className="bg-blue-200 p-12 rounded-3xl">
-                        <p className="md:text-md">
-                            • The number of members required per group is 4 (2 members from Commerce or Management fields and 2 from technological background).<br /><br />
+                    <div className="bg-blue-200 p-12 rounded-3xl space-y-8">
+                        <div>
+                            <h4 className="text-xl font-semibold mb-3">Themes</h4>
+                            <ul className="list-disc list-inside space-y-2">
+                                <li>UG Students: Intelligent Financial Modelling & Stock Market Analysis</li>
+                                <li>PG Students: Forensic Accounting and Fraud Detection</li>
+                            </ul>
+                        </div>
 
-                            • The Google form has to be filled by the Team Leader only who will have to provide all the details of the other team members.<br /><br />
-
-                            • A screenshot of the payment must also be attached to the Google form.<br /><br />
-
-                            • The last day for registration will be 26th January, 2025.<br /><br />
-
-                            • The Theme for the event will be:<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;For UG: Intelligent Financial Modelling and Stock Market Analysis<br />
-                            &nbsp;&nbsp;&nbsp;&nbsp;For PG: Forensic Accounting and Fraud Detection<br /><br />
-
-                            • Round I (Online) will take place on 6th February 2025 and Round II at (Nirma University) will take place on 6th – 7th March 2025.<br /><br />
-
-                            • Round I will be an online presentation of the possible solution to the problem statement given to the students. The specific topic will be provided 2 days prior to Round I.<br /><br />
-
-                            • The time limit for the online presentations will be 15 minutes.<br /><br />
-
-                            • 5 teams per theme will be shortlisted for Round II by the panel based on the evaluation criteria (5 from UG and 5 from PG).<br /><br />
-
-                            • The criteria would be the originality of the idea, its level of complexity, the clarity and comprehensiveness of the presentation in the prescribed format, its feasibility, potential widespread impact, practicality, sustainability, user experience, and the possibility of future development.<br /><br />
-
-                            • In Round II the participants are required to develop a Mobile App or Website related to the problem statement in relation to the specific theme.<br /><br />
-
-                            • The time provided for this would be 12 hours in Offline mode. Post 12 hours, the final evaluation will take place.<br /><br />
-
-                            • In Round II the teams are required to address the problem and its importance, new solutions or technology being offered, and the business model that accompanies it.<br /><br />
-
-                            • It is mandatory for all participants to possess a college ID for participation in Accathon.<br /><br />
-
-                            • To and fro travel, accommodation, and meals would be reimbursed for the participants attending the offline round.
-                        </p>
+                        <ul className="list-disc list-inside space-y-4 md:text-md">
+                            {rules.map((rule, index) => (
+                                <li key={index}>{rule}</li>
+                            ))}
+                        </ul>
                     </div>
                 </div>
             </section>

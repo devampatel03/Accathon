@@ -33,7 +33,7 @@ export const Contact9 = (props: Contact9Props) => {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    const mailtoLink = `mailto:gopikajuneja@nirmauni.ac.in?subject=Queries regarding ACCATHON 2.0&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+    const mailtoLink = `mailto:gopikajuneja@nirmauni.ac.in?subject=Queries regarding ACCATHON&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
     window.location.href = mailtoLink;
   };
   

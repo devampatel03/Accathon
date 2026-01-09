@@ -82,7 +82,7 @@ export const Header30Defaults = {
           fontSize: "3rem",
         }}
       >
-        ACCATHON 2.0 :
+        ACCATHON:
       </span>{" "}
       Driving Innovation in <span className="custom-color3">Accounting</span>{" "}
       and <span className="custom-color3">Technology</span>: Empowering Students

@@ -143,42 +143,11 @@ export const TeamComponentDefaults: TeamComponentProps = {
       linkedin: '',
     },
     {
-      name: 'Prof. K. S. Thakur',
-      role: 'President, Indian Accounting Association & VC, GGTU, Banswara',
-      image: '',
-      linkedin: '',
-    },
-    {
       name: ' Prof. Sanjay Bhayani',
       role: 'General Secretary, Indian Accounting Association',
       image: '/Images/dr_sanjay_bhayani.jpeg',
       linkedin: 'https://www.linkedin.com/in/sanjay-bhayani-505b901a0/',
-    },
-    {
-      name: 'Prof. Anil Kumar',
-      role: 'University of Delhi, Delhi',
-      image: '/Images/anil_kumar.png',
-      linkedin: 'https://www.linkedin.com/in/anil-kumar-srcc?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-    },
-    {
-      name: 'Prof. Arindam Das',
-      role: 'University of Bhurdwan, West Bengal',
-      image: '/Images/arindam_das.png',
-      linkedin: 'https://www.linkedin.com/in/dr-arindam-das-1b4b7620?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-    },
-    {
-      name: 'Prof. Biju Terrence ',
-      role: 'University of Kerala, Thiruvananthapurm',
-      image: '/Images/biju_terrence.jpg',
-      linkedin: 'https://www.linkedin.com/in/prof-biju-terrence-a273271b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-    },
-    {
-      name: 'Dr. Dharen Kumar Pandey',
-      role: 'Indian Institute of Management Sambalpur',
-      image: '/Images/dharen_kumar_pandey.jpg',
-      linkedin: 'https://www.linkedin.com/in/dr-dharen-kumar-pandey-52aa93b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
-    },
-    
+    }
   ],
   convener: [
     {
@@ -189,13 +158,6 @@ export const TeamComponentDefaults: TeamComponentProps = {
     },
   ],
   faculty: [
-    
-    {
-      name: 'Dr Saurin Parikh',
-      role: 'Associate Professor, ITNU',
-      image: '/Images/Saurin_Parikh.jpg',
-      linkedin: 'https://www.linkedin.com/in/saurin-parikh-a60a8a5a',
-    },
     {
       name: 'Dr Sunil Gautam',
       role: 'Assistant Professor, ITNU',
@@ -209,86 +171,49 @@ export const TeamComponentDefaults: TeamComponentProps = {
       linkedin: 'https://in.linkedin.com/in/dr-rajan-datt-b823171a',
     },
     {
-      name: 'Prof. Gopika Juneja',
-      role: 'Assistant Professor, ICNU',
-      image: '/Images/prof_gopika_juneja.jpeg',
-      linkedin: 'https://www.linkedin.com/in/gopika-juneja-a6534b156/',
+      name: 'Dr. CS Karishma Butani',
+      role: 'Assistant Professor, ITNU',
+      image: '/Images/karishma_bhutani.jpeg',
+      linkedin: 'https://www.linkedin.com/in/dr-cs-karishma-butani-3b647295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
-
+    {
+      name: 'Prof. Bhoomi Parikh ',
+      role: 'Assistant Professor, ITNU',
+      image: '/Images/bhoomi_parikh.jpeg',
+      linkedin: 'https://www.linkedin.com/in/bhoomi-parikh-41a435266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    },
   ],
   team: [
     {
-      name: 'Gungun Gangwani',
+      name: 'Priyamvada Jain',
       role: 'ICNU',
-      image: '/Images/Gungun Gangwani.jpg',
-      linkedin: 'https://www.linkedin.com/in/gungun-gangwani-692a71217?',
+      image: '/Images/priyamvada_jain.jpeg',
+      linkedin: 'https://www.linkedin.com/in/jainpriyamvada?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
     {
-      name: 'Palak Sharma',
+      name: 'Nandini Lila',
       role: 'ICNU',
-      image: '/Images/Palak Sharma.jpg',
-      linkedin: 'https://www.linkedin.com/in/palak-sharma-7a6494247?',
+      image: '/Images/nandini_lila.jpeg',
+      linkedin: 'https://www.linkedin.com/in/nandini-lila-74385325a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
     {
-      name: 'Vedika Aggarwal',
+      name: 'Manvendra Singh Solanki',
       role: 'ICNU',
-      image: '/Images/Vedika Aggarwal .jpg',
-      linkedin: 'https://www.linkedin.com/in/vedika-aggarwal-aab10424b?',
+      image: '/Images/manvendra_singh.jpeg',
+      linkedin: 'https://www.linkedin.com/in/manvendra-singh-solanki-650590296?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
     {
-      name: 'Joy Vadsmiya',
+      name: 'Karvy Joshi',
       role: 'ICNU',
-      image: '/Images/Joy Vadsmiya.jpg',
-      linkedin: 'https://www.linkedin.com/in/joy-vadsmiya-0267011b7?',
+      image: '/Images/karvya_joshi.jpeg',
+      linkedin: 'https://www.linkedin.com/in/karvy-joshi-97a65429b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
     {
-      name: 'Ayush Savnani',
-      role: 'ICNU',
-      image: '/Images/Ayush Savnani.jpg',
-      linkedin: 'https://www.linkedin.com/in/ayush-savnani-39959a267?',
-    },
-    {
-      name: 'Mehul Godha',
-      role: 'ICNU',
-      image: '/Images/Mehul Godha.jpg',
-      linkedin: 'https://www.linkedin.com/in/mehul-godha-0aab48267?',
-    },
-    {
-      name: 'Shaurya Jain',
-      role: 'ICNU',
-      image: '/Images/Shaurya Jain.jpg',
-      linkedin: 'https://www.linkedin.com/in/shaurya-jain-017186284?',
-    },
-    {
-      name: 'Devam Patel',
+      name: 'Prakhar Parikh',
       role: 'ITNU',
-      image: '/Images/Devam_Patel.jpg',
-      linkedin: 'https://www.linkedin.com/in/devam-patel-216112271/',
-    },
-    {
-      name: 'Jash Dadhaniya',
-      role: 'ITNU',
-      image: '/Images/Jash_Dadhaniya.png',
-      linkedin: 'https://www.linkedin.com/in/jash-dadhaniya-aa4b63258/',
-    },
-    {
-      name: 'Keshini Trivedi',
-      role: 'ITNU',
-      image: '/Images/Keshini_Trivedi.jpg',
-      linkedin: 'https://www.linkedin.com/in/keshini-trivedi/',
-    },
-    {
-      name: 'Jainish Gandhi',
-      role: 'ITNU',
-      image: '/Images/Jainish_Gandhi.jpg',
-      linkedin: 'https://www.linkedin.com/in/jainish-gandhi/',
-    },
-    {
-      name: 'Hetavi Patel',
-      role: 'ITNU',
-      image: '/Images/Hetavi_Patel.jpg',
-      linkedin: 'https://www.linkedin.com/',
-    },
+      image: '/Images/Prakhar Parikh.jpg',
+      linkedin: 'https://www.linkedin.com/in/prakhar-parikh',
+    }
   ],
 };
 

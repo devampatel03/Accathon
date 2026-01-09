@@ -29,63 +29,10 @@ export const Header78 = (props: Header78Props) => {
   };
 
   return (
-    <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
+    <section id="relume" className="px-[5%] py-10">
       <div className="container flex flex-col items-center">
-        <div className="rb-12 mb-12 max-w-lg text-center md:mb-18 lg:mb-20">
-          <h1
-            className="rb-5 mb-5 text-4xl font-bold md:text-5xl md:mb-6 lg:text-7xl lg:mb-8 "
-            style={{
-              color: "#000000",
-              textShadow: "3px 3px 4px #025E73",
-              marginBottom: 0,
-            }}
-          >
-            {heading}
-          </h1>
-        </div>
-
-        <div className="flex w-screen justify-start overflow-hidden">
-          <div className="grid shrink-0 grid-cols-1 gap-y-4">
-            <div className="grid w-full animate-marquee-top auto-cols-fr grid-cols-2 gap-4 self-center">
-              {[...new Array(2)].map((e, index) => (
-                <div key={index} className="grid w-full grid-flow-col gap-4">
-                  {images.map((image, imageIndex) => (
-                    <div
-                      key={imageIndex}
-                      className="relative w-[60vw] pt-[75%] sm:w-[18rem] md:w-[26rem]"
-                    >
-                      <img
-                        className="absolute inset-0 h-full w-full object-cover"
-                        src={image.src}
-                        alt={image.alt}
-                      />
-                    </div>
-                  ))}
-                </div>
-              ))}
-            </div>
-            <div className="grid w-full animate-marquee-bottom grid-cols-2 gap-4 self-center">
-              {[...new Array(2)].map((e, index) => (
-                <div key={index} className="grid w-full grid-flow-col gap-4">
-                  {images.map((image, imageIndex) => (
-                    <div
-                      key={imageIndex}
-                      className="relative w-[60vw] pt-[75%] sm:w-[18rem] md:w-[26rem]"
-                    >
-                      <img
-                        className="absolute inset-0 h-full w-full object-cover"
-                        src={image.src}
-                        alt={image.alt}
-                      />
-                    </div>
-                  ))}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
         <div>
-          <div className="flex flex-row items-center mt-20">
+          <div className="flex flex-row items-center mt-5">
             <h4
               className=" mr-5 text-lg font-bold sm:text-xl md:text-2xl lg:text-3xl"
               style={{ color: "#000000" }}

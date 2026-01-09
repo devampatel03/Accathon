@@ -103,7 +103,7 @@ import {
     footerHeading: "Still have questions?",
     footerDescription: "",
     button: {
-      title: "Contact Us : gopikajuneja@nirmauni.ac.in",
+      title: "Contact Us: sac_icnu@nirmauni.ac.in",
       variant: "secondary",
     },
   };

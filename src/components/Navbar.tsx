@@ -206,6 +206,10 @@ export const Navbar13Defaults: Navbar13Props = {
   },
   navLinks: [
     {
+      url: "/home",
+      title: "Home",
+    },
+    {
       url: "/about",
       title: "About",
     },

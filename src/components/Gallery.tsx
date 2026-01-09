@@ -14,7 +14,8 @@ type Props = {
   images: ImageProps[];
 };
 
-export type Header78Props = React.ComponentPropsWithoutRef<"section"> & Partial<Props>;
+export type Header78Props = React.ComponentPropsWithoutRef<"section"> &
+  Partial<Props>;
 
 export const Header78 = (props: Header78Props) => {
   const { heading, images } = {
@@ -23,20 +24,24 @@ export const Header78 = (props: Header78Props) => {
   } as Props;
 
   const handleRegisterClick = () => {
-    window.location.href = "https://drive.google.com/file/d/1443jP35gVFL6H3g-tL-cKc557o0Sx5pB/view?usp=sharing";
+    window.location.href =
+      "https://drive.google.com/file/d/1443jP35gVFL6H3g-tL-cKc557o0Sx5pB/view?usp=sharing";
   };
 
   return (
     <section id="relume" className="px-[5%] py-16 md:py-24 lg:py-28">
       <div className="container flex flex-col items-center">
         <div className="rb-12 mb-12 max-w-lg text-center md:mb-18 lg:mb-20">
-        <h1
+          <h1
             className="rb-5 mb-5 text-4xl font-bold md:text-5xl md:mb-6 lg:text-7xl lg:mb-8 "
-            style={{ color: "#000000", textShadow: "3px 3px 4px #025E73", marginBottom: 0 }}
+            style={{
+              color: "#000000",
+              textShadow: "3px 3px 4px #025E73",
+              marginBottom: 0,
+            }}
           >
             {heading}
           </h1>
-          
         </div>
 
         <div className="flex w-screen justify-start overflow-hidden">
@@ -77,24 +82,27 @@ export const Header78 = (props: Header78Props) => {
                 </div>
               ))}
             </div>
-
-
-
-            
           </div>
         </div>
         <div>
-            <div className="flex flex-row items-center mt-36">
+          <div className="flex flex-row items-center mt-20">
             <h4
-            className=" mr-5 text-lg font-bold sm:text-xl md:text-2xl lg:text-3xl"
-            style={{ color: "#000000"}}
-          >
-            ACCATHON 1.0 Report - 
-          </h4>
-          <Button onClick={handleRegisterClick} >
-                          Click Here  
-                        </Button>
-            </div>
+              className=" mr-5 text-lg font-bold sm:text-xl md:text-2xl lg:text-3xl"
+              style={{ color: "#000000" }}
+            >
+              ACCATHON 2.0 Report
+            </h4>
+            <Button><a href="https://docs.google.com/document/d/1UUbBGVWxiiBWNapr052Fy-L1Oz7VJLEf/edit?usp=drivesdk&ouid=101352297503603854883&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">Click Here</a></Button>
+          </div>
+          <div className="flex flex-row items-center mt-10">
+            <h4
+              className=" mr-5 text-lg font-bold sm:text-xl md:text-2xl lg:text-3xl"
+              style={{ color: "#000000" }}
+            >
+              ACCATHON 1.0 Report
+            </h4>
+            <Button><a href="https://drive.google.com/file/d/1443jP35gVFL6H3g-tL-cKc557o0Sx5pB/view?usp=sharing" target="_blank" rel="noopener noreferrer">Click Here</a></Button>
+          </div>
         </div>
       </div>
     </section>
@@ -127,7 +135,7 @@ export const Header78Defaults: Header78Props = {
 
     {
       src: "/Images/gallery/image-5.JPG",
-      alt: " placeholder image 5"
+      alt: " placeholder image 5",
     },
 
     {

@@ -119,7 +119,7 @@ const FeatureSection = ({
       <h3 className="text-2xl font-bold md:text-3xl" style={{ color: "#023859", textShadow: "2px 2px 25px #025E73" }}>
           {section.title}
         </h3>
-      <p>{section.description}</p>
+      <p className="whitespace-pre-line">{section.description}</p>
     </motion.div>
   );
 };
@@ -173,6 +173,15 @@ export const Layout415Defaults: Layout415Props = {
     {
       icon: {
         src: "/Images/Accathon Logo.png",
+        alt: "",
+      },
+      title: "Prize Money",
+      description:
+        "Compete for exciting cash prizes!• 1st Prize:\n₹25,000\n• 2nd Prize: 15,000\nWinners will be awarded for each theme, so bring your best ideas!"
+    },
+    {
+      icon: {
+        src: "/Images/Accathon Logo.png",
         alt: "  ",
       },
       title: "Eligibility & Team Composition",
@@ -194,17 +203,8 @@ export const Layout415Defaults: Layout415Props = {
         alt: "  ",
       },
       title: "Prize Money",
-      description: (
-        <>
-          Compete for exciting cash prizes!
-          <br />
-          • 1st Prize: ₹25,000
-          <br />
-          • 2nd Prize: 15,000
-          <br />
-          Winners will be awarded for each theme, so bring your best ideas!
-        </>
-      ),
+      description:
+  "Compete for exciting cash prizes!\n• 1st Prize: ₹25,000\n• 2nd Prize: ₹15,000\nWinners will be awarded for each theme, so bring your best ideas!"
     },
     
     {

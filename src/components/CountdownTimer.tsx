@@ -62,7 +62,7 @@ const Timer3: React.FC = () => {
   };
 
   const startCountDown = useCallback(() => {
-    const countDownDate = new Date("2024-12-30T23:59:00").getTime(); // Target Date
+    const countDownDate = new Date("2026-01-26T23:59:00+05:30").getTime(); // Target Date
 
     const interval = setInterval(() => {
       getTimeDifference(countDownDate, interval);

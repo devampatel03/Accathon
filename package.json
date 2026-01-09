@@ -13,6 +13,7 @@
     "@relume_io/relume-tailwind": "^0.6.0",
     "@relume_io/relume-ui": "^0.6.0",
     "accathon-website": "file:",
+    "embla-carousel-react": "^8.6.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0"

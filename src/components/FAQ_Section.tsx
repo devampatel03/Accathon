@@ -69,36 +69,53 @@ import {
     heading: "FAQs",
     
     questions: [
-      {
-        title: "Who can participate and form a team?",
-        answer:
-          "All undergraduate students from universities/colleges across India. Teams must consist of 4 members, with at least 2 from the commerce/management stream.",
-      },
-      {
-        title: "Can mentors participate?",
-        answer:
-          "Company employees and faculty can act as mentors based on their domain expertise.",
-      },
-      {
-        title: "Is registration mandatory and what's the fee?",
-        answer:
-          "Yes, it is mandatory for the team to register, and the registration fee is ₹600 per team. Only one track per team is allowed.",
-      },
-      {
-        title: "What if I need to cancel my registration?",
-        answer:
-          "Email gopikajuneja@nirmauni.ac.in if you need to cancel. Note: No refunds for the registration fee.",
-      },
-      {
-        title: "Are non-Gujarat students eligible, and is accommodation provided in the second round?",
-        answer:
-          "Yes, it’s open to all undergraduates across India. Travel (sleeper class), accommodation, and meals are reimbursed for participants in the offline round.",
-      },
-      {
-        title: "Team Requirements needed for the competition?",
-        answer:
-          "Teams must be formed prior to registration, consisting of 4 members. Students from different colleges can form a team, with at least 2 from commerce/management.You can only be in one team.",
-      },
+  {
+    title: "Who can participate and form a team?",
+    answer:
+      "All undergraduate and postgraduate students from universities and colleges across India are eligible to participate. Each team must consist of 4 members, with 2 students from a commerce/management background and 2 students from a technology background.",
+  },
+  {
+    title: "Can mentors participate in the event?",
+    answer:
+      "Yes. Company employees and faculty members can participate as mentors, based on their relevant domain expertise.",
+  },
+  {
+    title: "Is registration mandatory? What is the registration fee?",
+    answer:
+      "Yes, registration is mandatory for all teams. The registration fee is ₹600 per team, and each team is allowed to register for only one track.",
+  },
+  {
+    title: "What if I need to cancel my registration?",
+    answer:
+      "If you need to cancel your registration, please email sac_icnu@nirmauni.ac.in. Kindly note that the registration fee is non-refundable.",
+  },
+  {
+    title: "Are non-Gujarat students eligible? Is accommodation provided in the second round?",
+    answer:
+      "Yes, the event is open to all undergraduate and postgraduate students across India, including non-Gujarat participants. For teams qualifying for the offline round, travel expenses (sleeper class), accommodation, and meals will be reimbursed.",
+  },
+  {
+    title: "What are the team requirements for the competition?",
+    answer:
+      "Teams must be formed before registration. Each team must have 4 members. Teams can include students from different colleges. A minimum of 2 members from commerce/management and 2 from technology is mandatory. A participant can be a part of only one team.",
+  },
+  {
+    title: "Can postgraduate students form a team with undergraduate students?",
+    answer:
+      "No. Postgraduate students must form teams only with other postgraduate students, and undergraduate students must form teams only with undergraduate students. Mixing undergraduate and postgraduate students in the same team is not permitted.",
+  },
+  {
+    title: "What themes can students choose?",
+    answer:
+      <>
+      <p>
+        Postgraduate Track: Forensic Accounting and Fraud Detection.
+      </p>
+      <p>
+        Undergraduate Track: Intelligent Financial Modelling and Stock Market Analysis.
+      </p>
+      </>
+  },
     ],
     footerHeading: "Still have questions?",
     footerDescription: "",

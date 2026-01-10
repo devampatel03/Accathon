@@ -27,7 +27,7 @@ export const GuidelinesComponent: React.FC = () => {
             <section className="px-[5%] mt-5 -mb-8 py-3 md:py-5 lg:py-8 bg-blue-100">
                 <div className="container max-w-lg text-center">
                     <h3 className="text-4xl font-bold leading-[1.2] md:text-5xl lg:text-6xl">
-                        Rules & Regulations for ACCATHON 2.0
+                        Rules & Regulations for ACCATHON
                     </h3>
                 </div>
             </section>

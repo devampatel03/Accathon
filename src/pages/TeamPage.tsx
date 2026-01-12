@@ -143,6 +143,12 @@ export const TeamComponentDefaults: TeamComponentProps = {
       linkedin: '',
     },
     {
+      name: ' Prof. Simon Thattil',
+      role: 'President, Indian Accounting Association',
+      image: '/Images/simon_thattil.jpeg',
+      linkedin: 'https://www.linkedin.com/in/sanjay-bhayani-505b901a0/',
+    },
+    {
       name: ' Prof. Sanjay Bhayani',
       role: 'General Secretary, Indian Accounting Association',
       image: '/Images/dr_sanjay_bhayani.jpeg',

@@ -39,7 +39,7 @@ export const Header78 = (props: Header78Props) => {
             >
               ACCATHON 2.0 Report
             </h4>
-            <Button><a href="https://docs.google.com/document/d/1UUbBGVWxiiBWNapr052Fy-L1Oz7VJLEf/edit?usp=drivesdk&ouid=101352297503603854883&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">Click Here</a></Button>
+            <Button><a href="https://drive.google.com/file/d/1MIAO6YQfEUshMF-aet5YHI0p35Q-Ao2c/view?usp=drivesdk" target="_blank" rel="noopener noreferrer">Click Here</a></Button>
           </div>
           <div className="flex flex-row items-center mt-10">
             <h4

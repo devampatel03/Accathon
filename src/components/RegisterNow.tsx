@@ -18,7 +18,7 @@ export const Layout135 = (props: Layout135Props) => {
     } as Props;
 
     const handleRegisterClick = () => {
-        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLScKRZqB3go_NDcAVzLawiKB1ZkMQxamQc20aFprCqh8MT-BJQ/viewform";
+        window.location.href = "https://forms.gle/NHJQkG7KP5twVsAt9";
     };
 
     return (

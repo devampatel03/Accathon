@@ -92,7 +92,7 @@ export const Header30Defaults = {
   description: "",
   buttons: [
     {
-      title: "Let's Innovate",
+      title: "Brochure",
       size: "sm",
       className:
         "bg-[#023859] text-white hover:bg-[#023859] px-8 py-3 text-xl font-bold rounded-full border-2 border-white transition-all duration-300 ease-in-out",

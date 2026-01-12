@@ -146,7 +146,7 @@ export const TeamComponentDefaults: TeamComponentProps = {
       name: ' Prof. Simon Thattil',
       role: 'President, Indian Accounting Association',
       image: '/Images/simon_thattil.jpeg',
-      linkedin: 'https://www.linkedin.com/in/sanjay-bhayani-505b901a0/',
+      linkedin: 'https://www.linkedin.com/in/simon-thattil-21a8a572?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
     {
       name: ' Prof. Sanjay Bhayani',
@@ -165,6 +165,18 @@ export const TeamComponentDefaults: TeamComponentProps = {
   ],
   faculty: [
     {
+      name: 'Dr. CS Karishma Butani',
+      role: 'Assistant Professor, ICNU',
+      image: '/Images/karishma_bhutani.jpeg',
+      linkedin: 'https://www.linkedin.com/in/dr-cs-karishma-butani-3b647295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    },
+    {
+      name: 'Dr. Bhoomi Parikh ',
+      role: 'Assistant Professor, ICNU',
+      image: '/Images/bhoomi_parikh.jpeg',
+      linkedin: 'https://www.linkedin.com/in/bhoomi-parikh-41a435266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    },
+    {
       name: 'Dr Sunil Gautam',
       role: 'Assistant Professor, ITNU',
       image: '/Images/prof_sunil_gautam.jpeg',
@@ -175,18 +187,6 @@ export const TeamComponentDefaults: TeamComponentProps = {
       role: 'Assistant Professor, ITNU',
       image: '/Images/Rajan_Dutt.jpg',
       linkedin: 'https://in.linkedin.com/in/dr-rajan-datt-b823171a',
-    },
-    {
-      name: 'Dr. CS Karishma Butani',
-      role: 'Assistant Professor, ITNU',
-      image: '/Images/karishma_bhutani.jpeg',
-      linkedin: 'https://www.linkedin.com/in/dr-cs-karishma-butani-3b647295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-    },
-    {
-      name: 'Prof. Bhoomi Parikh ',
-      role: 'Assistant Professor, ITNU',
-      image: '/Images/bhoomi_parikh.jpeg',
-      linkedin: 'https://www.linkedin.com/in/bhoomi-parikh-41a435266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
   ],
   team: [

@@ -138,7 +138,7 @@ export const Faq2Defaults: Faq2Props = {
   footerHeading: "Still have questions?",
   footerDescription: "",
   button: {
-    title: "Contact Us: sac_icnu@nirmauni.ac.in",
+    title: "Contact us: sac_icnu@nirmauni.ac.in",
     variant: "secondary",
   },
 };

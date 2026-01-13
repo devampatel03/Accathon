@@ -18,8 +18,8 @@ export const Header30 = (
   } as Props;
 
   const images = Array.from(
-    { length: 79 },
-    (_, i) => `/Images/CarouselImages/${i + 1}.JPG`
+    { length: 66 },
+    (_, i) => `/Images/CarouselImages/${i + 1}.jpg`
   );
   const [index, setIndex] = useState(0);
 
@@ -42,11 +42,11 @@ export const Header30 = (
               {description}
             </p>
             <div className="mt-6 flex items-center justify-center gap-x-4 md:mt-8">
-              {buttons.map((button, index) => (
-                <Button key={index} {...button}>
-                  {button.title}
+              <a href="https://drive.google.com/drive/folders/12nRdGee1pOWISTExvaS_mj7JfBbx7GNv" target="_blank" rel="noopener noreferrer">
+                <Button key={index} {...buttons[0]}>
+                    {buttons[0].title}
                 </Button>
-              ))}
+              </a>
             </div>
           </div>
         </div>

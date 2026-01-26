@@ -55,8 +55,8 @@ export const Header26 = (props: Header26Props) => {
 export const Header26Defaults: Header26Props = {
   heading: "Event Timeline",
   image: {
-    srcLandscape: "/Images/poster/Landscape.png",
-    srcPortrait: "/Images/poster/Portrait.png",
+    srcLandscape: "/Images/poster/Landscape.jpeg",
+    srcPortrait: "/Images/poster/Portrait.jpeg",
     alt: "Relume placeholder image",
   },
 };
